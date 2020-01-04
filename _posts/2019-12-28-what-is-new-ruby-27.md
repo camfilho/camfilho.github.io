@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What is new in Ruby 2.7.0
+date: 2019-12-28 19:51:02 -0300
 categories: [general, programming-news]
 tags: [ruby,rails]
 description: 
@@ -28,7 +29,7 @@ Books.all.each { p _1.title }
 
 Following the trend of all the major programming languages in adopting functional programming, Ruby is bringing `Pattern Matching` as an experimental feature. [See discussion here](https://bugs.ruby-lang.org/issues/14912)
 
-{% highlight ruby linenos %}
+{% highlight ruby %}
 case [10, [20, 30, 40]]
     in [num1,[num2, *num34] ]
         p num1
