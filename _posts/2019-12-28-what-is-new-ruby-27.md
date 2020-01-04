@@ -44,7 +44,7 @@ end
 
 It also can traverse a hash object and assign its value if a pattern is matched.
 
-{% highlight ruby linenos %}
+```ruby
 require "json"
 
 json = <<END
@@ -63,7 +63,7 @@ end
 1999
 => 1999
 
-{% endhighlight %}
+```
 
 ## Improved REPL (IRB)
 Let's be honest. Even though irb is really helpful when we want to refresh some ruby syntax, it is not that fun to code on it. IRB now supports multi-line editing, syntax highlighting, inline editing of methods, auto-completion and auto-indentation.
