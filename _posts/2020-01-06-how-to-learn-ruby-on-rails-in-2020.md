@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Get Started with Ruby on Rails in 2020
-date: 2019-01-06 19:51:02 -0300
+date: 2020-01-06 19:51:02 -0300
 categories: [general, programming-news]
 tags: [ruby,rails]
 description: 
